@@ -1,0 +1,19 @@
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ cn.rtmap.bigdata.platform.agentserver ---
+[INFO] Installing C:\zhangxw\RtMapWs\platform\platform.agentserver\target\cn.rtmap.bigdata.platform.agentserver-1.0.war to C:\zhangxw\MavenLib\cn\rtmap\bigdata\platform\cn.rtmap.bigdata.platform.agentserver\1.0\cn.rtmap.bigdata.platform.agentserver-1.0.war
+[INFO] Installing C:\zhangxw\RtMapWs\platform\platform.agentserver\pom.xml to C:\zhangxw\MavenLib\cn\rtmap\bigdata\platform\cn.rtmap.bigdata.platform.agentserver\1.0\cn.rtmap.bigdata.platform.agentserver-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] cn.rtmap.bigdata.platform.all ..................... SUCCESS [  0.554 s]
+[INFO] cn.rtmap.bigdata.platform.plugin .................. SUCCESS [ 25.151 s]
+[INFO] cn.rtmap.bigdata.platform.web ..................... SUCCESS [ 26.095 s]
+[INFO] cn.rtmap.bigdata.platform.agent ................... SUCCESS [01:21 min]
+[INFO] cn.rtmap.bigdata.platform.agentserver ............. SUCCESS [  8.388 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:21 min
+[INFO] Finished at: 2015-07-24T18:57:35+08:00
+[INFO] Final Memory: 43M/514M
+[INFO] ------------------------------------------------------------------------

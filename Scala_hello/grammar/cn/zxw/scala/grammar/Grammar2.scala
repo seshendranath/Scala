@@ -1,5 +1,8 @@
 package cn.zxw.scala.grammar
 
+/**
+ * case class
+ */
 object Grammar2 {
   def main(args: Array[String]): Unit = {
     val id = Fun("x", Var("x"))
@@ -9,6 +12,7 @@ object Grammar2 {
     println(isIdentityFun(id))
     println(isIdentityFun(t))
   }
+  
   def printTerm(term: Term) {
     term match {
       case Var(n) => print(n)
@@ -33,4 +37,3 @@ abstract class Term
 case class Var(name: String) extends Term
 case class Fun(arg: String, body: Term) extends Term
 case class App(f: Term, v: Term) extends Term
-

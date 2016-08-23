@@ -30,25 +30,4 @@ object HelloScala extends App{
   println (romanNumeral(4))
   
   
-  
-  
-  
-  
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

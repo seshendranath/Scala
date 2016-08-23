@@ -14,5 +14,4 @@ object Function21{
     println(func(1,2))
   }
   
-  
 }

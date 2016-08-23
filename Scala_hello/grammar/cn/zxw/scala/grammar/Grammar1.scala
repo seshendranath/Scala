@@ -6,10 +6,6 @@ object Grammar1 {
     matchcase2
     matchcase3
     
-    
-    
-    
-    
   }
   
   /**
@@ -44,8 +40,5 @@ object Grammar1 {
         }
     println(myResult);
   }
-  
-  
-  
   
 }

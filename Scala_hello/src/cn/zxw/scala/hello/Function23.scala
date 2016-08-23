@@ -23,11 +23,11 @@ object Function23{
   }
   
   def main(args: Array[String]): Unit = {
-    //重复参数
+    //可变参数
     echo("hello","zhangsan")
     
     var sArr=Array("remember","date","2015-07-30")
-    echo(sArr:_*)
+    echo(sArr:_*)//什么鬼语法?
     
     //命名参数
     var s1=speed(100,10)
@@ -38,9 +38,5 @@ object Function23{
     printTime();
     printTime(div=1);
     
-    
-    
   }
-  
-  
 }

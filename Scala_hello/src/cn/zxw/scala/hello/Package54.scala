@@ -10,7 +10,7 @@ object Package54 {
   }
   
   def showFruit(fruit:Fruit){
-    import fruit.{color=>_,_}
+    import fruit.{color=>_,_}//hide color
     println(name + " are " )
     //println(name + " are " + color)
   }
@@ -20,4 +20,4 @@ object Package54 {
 class Fruit{
     val name = "apple"
     val color = "red"
- }
+}

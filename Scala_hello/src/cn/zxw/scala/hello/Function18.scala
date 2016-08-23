@@ -21,8 +21,7 @@ object Function18 {
   }
   
   def main(args: Array[String]): Unit = {
-    Function17.processFile("C:\\zhangxw\\workSpace\\Scala\\hello_scala\\bin\\file.txt", 50)
+    Function17.processFile(".\\bin\\file.txt", 50)
   }
-  
   
 }

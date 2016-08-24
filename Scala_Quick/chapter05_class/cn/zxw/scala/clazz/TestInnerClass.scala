@@ -17,6 +17,8 @@ object TestInnerClass {
     
     m1.contacts += m2
     m1.contacts += m3 //伴生对象中的内部类
+    println(m1.contacts)
+    //ArrayBuffer(cn.zxw.scala.clazz.TestInnerClass$Member@35d4f53, cn.zxw.scala.clazz.TestInnerClass$Member@6302d3de)
   }
 }
 

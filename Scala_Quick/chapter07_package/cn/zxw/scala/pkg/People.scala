@@ -18,6 +18,6 @@ object TestPerson{
       println(cn.zxw.scala.pkg.people.defaultName)
       import cn.zxw.scala.pkg.people.Person
       val p = new Person
-      println(p.hi())//包可见性
+      p.hi()//包可见性
     }
 }
